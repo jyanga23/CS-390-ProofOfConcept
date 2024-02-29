@@ -8,7 +8,7 @@
         <h1>Squirrels</h1>
         <ul>
             {% for s in squirrels %}
-                <li>{{s.name}}</li>
+            <li><a href={{s.id}}>{{s.name}}</a></li>
             {% endfor %}
         </ul>
     </body>
